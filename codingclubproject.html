@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Kolbe Academy Club Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="title">
+    <h1>The Kolbe Academy Club Hub</h1>
+    <p>Take a look at all of the amazing clubs Kolbe has to offer!</p>
+  </div>
+
+  <main>
+    <div class="section clubhub-info" id="how-to-join">
+      <div class="clubhub-text">
+        <h2>How to Join</h2>
+        <p>Club registration is always open! To register, go to the Parent Portal, click on your student’s name, then the “Registrations” tab where you’ll find a link to “Join a club.” Activity clubs have a small fee associated. Clubs are typically launched in early
+          September. Watch the Kolbe memo for details. Clubs are made by staff and students alike. If you would like to start a new club, please contact your guidance counselor or your teacher. Please keep in mind that starting a club takes marturity, leadership, time, and effort!</p>
+      </div>
+      <div class="clubhub-images">
+        <img class="main-img" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXce93LOvxmq10j58YQP_0IQnN5liwT2BvU0DLjFVGYU7ekRgePOEAn4zEamDmH_BMuB5E1KAdzlksOY7_bf0MZ--gCjfbZN9EHJ9D9hqLBK-fNoJb1TbHQxwf28XG9gC9IWkUhM?key=w3auGPuw1xomcBny3jBBzCiO" alt="Parent Portal Example" />
+      </div>
+
+    </div>
+
+    <h2>The Clubs We Offer</h2>
+    <div class="category-buttons">
+      <button onclick="filterCategory('elementary')">Elementary School Clubs</button>
+      <button onclick="filterCategory('middle')">Middle School Clubs</button>
+      <button onclick="filterCategory('high')">High School Clubs</button>
+      <button onclick="filterCategory('service')">Service Clubs</button>
+      <button onclick="filterCategory('all')">Show All</button>
+    </div>
+
+    <div class="club-list">
+      <div class="club-item elementary middle" onclick="showDetails('lego-club')">Lego Club</div>
+      <div class="club-item elementary middle" onclick="showDetails('baking-club')">Baking Club</div>
+      <div class="club-item elementary" onclick="showDetails('elementaryart-club')">Elementary Art Club</div>
+      <div class="club-item middle" onclick="showDetails('middleart-club')">Middle School Art Club</div>
+      <div class="club-item high" onclick="showDetails('culinary-club')">Culinary Club</div>
+      <div class="club-item high" onclick="showDetails('stceciliamusic-club')">St Cecilia Music Club</div>
+      <div class="club-item elementary" onclick="showDetails('playdough-club')">Playdough Club</div>
+      <div class="club-item elementary service" onclick="showDetails('elementaryspirituallife-club')">Elementary Spiritual Life Club</div>
+      <div class="club-item middle high service" onclick="showDetails('spirituallife-club')">Spiritual Life Club</div>
+      <div class="club-item high service" onclick="showDetails('newsletter-club')">Newsletter Club</div>
+      <div class="club-item high" onclick="showDetails('kolbetv-club')">Kolbe TV</div>
+      <div class="club-item high service" onclick="showDetails('kolbenewsshow-club')">Kolbe News Show</div>
+      <div class="club-item elementary middle high" onclick="showDetails('chess-club')">Chess Club</div>
+      <div class="club-item middle high" onclick="showDetails('travelandculture-club')">Travel and Culture Club</div>
+      <div class="club-item middle high" onclick="showDetails('photography-club')">Photography Club</div>
+      <div class="club-item middle high" onclick="showDetails('coding-club')">Coding Club</div>
+      <div class="club-item elementary middle high" onclick="showDetails('4handfarm-club')">4H and Farm Club</div>
+      <div class="club-item elementary middle high" onclick="showDetails('kolbetalentshow-club')">Kolbe Talent Show</div>
+      <div class="club-item elementary middle high service" onclick="showDetails('yearbook-club')">Yearbook Club</div>
+      <div class="club-item high service" onclick="showDetails('NHS-club')">National Honors Society</div>
+      <div class="club-item high" onclick="showDetails('philosophy-club')">Philosophy, Theology, and Apologetics Club</div>
+      <div class="club-item middle" onclick="showDetails('debate-club')">Debate Club</div>
+      <div class="club-item middle" onclick="showDetails('creativewritingmiddle-club')">Creative Writing Club For Middle School</div>
+      <div class="club-item high" onclick="showDetails('creativewriting-club')">Creative Writing Club</div>
+      <div class="club-item elementary middle high service" onclick="showDetails('kolbeforlife-club')">Kolbe Students For Life</div>
+      <div class="club-item elementary middle high" onclick="showDetails('latin-club')">Latin Club</div>
+      <div class="club-item middle high" onclick="showDetails('spanish-club')">Spanish Club</div>
+      <div class="club-item middle high" onclick="showDetails('french-club')">French Club</div>
+      <div class="club-item middle high" onclick="showDetails('sciencefair-club')">Kolbe Academy Science Fair</div>
+    </div>
+
+    <div id="lego-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://media.istockphoto.com/id/514003464/photo/lego-bricks-in-child-hands.jpg?s=612x612&w=0&k=20&c=SrPNlmjQH0kPGnBltkiMj6TKvr_NGnvYfuw1mRNKGlQ=" alt="Lego Icon" class="img-bottom-left" />
+      <div class="club-info">
+        <h2>Interested in the Lego Club?</h2>
+        <p>An opportunity for Lego lovers to build and have fun!</p>
+        <h3>What We Do</h3>
+        <p>Planned activities, student participation is highly encouraged. Discussion forum for interactions, monthly themed projects that are posted on Schoology, and monthly meets on Fridays in Adobe for those who would like to/are able to attend.</p>
+        <h3>Facilitator</h3>
+        <p>Mrs. Castor  |  Email: pcastor@kolbe.org</p>
+        <h3>Grades</h3>
+        <p>K–8</p>
+      </div>
+    </div>
+
+
+    <div id="baking-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://media.istockphoto.com/id/1405383671/photo/bakery-items-and-ingredients-background.jpg?s=612x612&w=0&k=20&c=k0TaPRmc1juE499HmlswGiJp0ELL2yIJBcdlWhwn78o=" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in Baking Club?</h2>
+        <p>No previous experience necessary! Planned activities and advisor-led club; student input highly encouraged.</p>
+        <h3>What We Do</h3>
+        <p>Discussion, forum-based club for interacting with other students. Live activities include monthly live baking projects and discussions. Asynchronous activities and project suggestions available. Recordings are posted on Schoology club page!</p>
+        <h3>Facilitator</h3>
+        <p>Mrs. Bates<br>Email: cbates@kolbe.org</p>
+        <h3>Grades</h3>
+        <p>3–8</p>
+      </div>
+      </div>
+    </div>
+
+
+    <div id="elementaryart-club"  class="club-details layout-image-header" style="background-image: url('https://cdn.forumcomm.com/dims4/default/352140e/2147483647/strip/true/crop/3024x2016+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fforum-communications-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fff%2Fae%2Fffb725114cbb9489fd6c3f3ddad4%2Fgrade2-1.JPG')">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the Art Club?</h2>
+          <p>No previous experience necessary!</p>
+          <h3>What We Do</h3>
+          <p>Planned activities and advisor-led club; student input highly encouraged.
+            Discussion, forum-based, club for interacting.
+            Live activities: Monthly projects incorporating a large variety of mediums (from watercolor to pastels to tooling foil to weaving)
+            Do not need to attend live meetings to participate as activity plans and recordings will be posted on the Schoology club page.</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Bates  Email: cbates@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>3-5</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="middleart-club" class="club-details layout-image-header" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg')">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the Art Club?</h2>
+          <p>No previous experience necessary!</p>
+          <h3>What We Do</h3>
+          <p>Planned activities and advisor-led club; student input highly encouraged.
+            Discussion, forum-based, club for interacting.
+            Live activities: Monthly projects incorporating a large variety of mediums (from watercolor to pastels to tooling foil to weaving)
+            Do not need to attend live meetings to participate as activity plans and recordings will be posted on the Schoology club page.</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Bates  Email: cbates@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-8</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="culinary-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://i.pinimg.com/736x/18/70/8f/18708f0cb4d880a862dde180c34912b9.jpg" class="img-bottom-right" />
+        <div class="club-info">
+          <h2>Interested in the Culinary Club?</h2>
+          <p>No previous experience necessary!</p>
+          <h3>What We Do</h3>
+          <p>Monthly baking/cooking challenges; discussion forum and portfolios for collaboration; badges galore! Meetings are monthly and live.</p>
+          <h3>Facilitator</h3>
+          <p>Ms. Migaliak  Email: dmihaliak@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="stceciliamusic-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Mozart_family_crop.jpg" alt="St Cecilia Music Club" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the St. Cecilia Music Club?</h2>
+          <p>This is the club you have been waiting for! Yup, a chance to discuss and
+            listen to classical music. But what is classical music? What exactly does
+            “classical” mean here? Come and find out!</p>
+          <h3>What We Do</h3>
+          <p>There will be a Discussion Board for discussing various forms of classical
+            music, and making suggestions on what to listen to? Music selections will
+            be shared (with approval of the moderator, of course), and discussions of
+            all facets of classical music will be entertained.
+            Will there be meetings and live discussions? Yes, if the club wishes to do
+            that! But of course, this club is and should be student directed, so you
+            decide! How about that!</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Knuffke  Email: oknuffke@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="playdough-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://weelicious.com/wp-content/uploads/2009/02/july14th-recipes-weelicious1415-1.jpg" alt="Playdough Club" class="img-bottom-right"/>
+        <div class="club-info">
+          <h2>Interested in the Playdough Club?</h2>
+          <p>Playing with playdough strenghtens fine motor skills, builds hand-eye cordination, and encourages creativity.</p>
+          <h3>What We Do</h3>
+          <p>The playdough club is tons of fun! Meeting time will include both guided activities and free play. This club will meet biweekly on Mondays from 11:45 to 12:15 EST.</p>
+          <h3>Facilitator</h3>
+          <p>Ms. Harrell  Email: fharrell@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>Pre K-2nd</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="elementaryspirituallife-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://newsletter.companionsofstanthony.org/wp-content/uploads/2019/01/Kolbe-painting_web.jpg" alt="Spiritual Life Club"  class="img-bottom-left" />
+        <div class="club-info">
+          <h2>Interested in the Elementary Spiritual Life Club?</h2>
+          <p>Meets once a month as a club.
+            • During club meetings we pray, do works of charity, and
+            celebrate the goodness of God and being Catholic. </p>
+          <h3>What We Do</h3>
+          <p>• Students in this club are encouraged to take leadership
+            roles for the K-5 First Friday Assemblies.
+            • Attending the club does not necessarily mean you have
+            to take a leadership position, but only those in the club
+            can lead the assemblies</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Castor  Email: pcastor@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>K-5</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="spirituallife-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIaQqZwx1I1Cunv0hEVqK_76L1n_p6w0IEfw&s" alt="Spiritual Life Club" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the Spiritual Life Club?</h2>
+          <p>We are dedicated to the Catholic mission of our
+            school by leading prayers for the Kolbe community and
+            supporting faithful friendships within our club.</p>
+          <h3>What We Do</h3>
+          <p>We host our school's weekly Monday Gospel
+            Reflection and Thursday Rosary during the break
+            between Periods 3 and 4 at 12:50 PM ET. We also lead
+            prayers during Catholic Schools Week, talent shows,
+            and the annual retreat.Our Schoology group maintains active
+            discussion boards on liturgical living, holy heroes,
+            Catholic trivia, prayer intentions, and more.</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Doucette  Email: dbdoucette@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="newsletter-club" class="club-details layout-image-header" style="background-image: url('https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=360')">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the Newsletter Club?</h2>
+          <p>The Newsletter Club publishes a monthly email newsletter that highlights student work
+            and achievements, provides reminders and information, and builds community.Meets 6-8 times per school year.</p>
+          <h3>What We Do</h3>
+          <p>All members will have the opportunity to pitch ideas and might be selected to write articles,
+            conduct interviews, create videos, or submit artwork.
+            • We are always looking for creative students with good ideas, as well as writing, editing, design, and video
+            production skills. Excellent teamwork is a must!</p>
+          <h3>Moderator</h3>
+          <p>Any questions? Students can email newsletter@kolbe.org . The moderator is Mrs. Hambleton  Email: mhambleton@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+          <h3>Leadership Positions</h3>
+          <p>Leadership positions include: Editor-in-Chief, Senior Editor, and Lead Designer. Leadership
+            positions have been filled and will be reassigned in the spring, preferably to juniors, based on
+            a proven track record of hard work and dedication to the newsletter.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="kolbetv-club" class="club-details layout-image-header" style="background-image: url('https://media.istockphoto.com/id/1490920883/photo/news-room-with-stage-for-breaking-news.jpg?s=612x612&w=0&k=20&c=MC-zWfWh4uev2ELmPSeqAHjg8hrgmNVzIsJNEvZXuyE=')">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in Kolbe TV?</h2>
+          <p>In addition to the overall Newsletter project, many students in the club also
+            produce a special video segment called Kolbe TV!</p>
+          <h3>What We Do</h3>
+          <p>Kolbe TV features student activities, special videos from teachers and club
+            collaborations, as well as a regular series of student-created comedy
+            sketches!
+            • If you like acting, video editing, or are someone who wants to have some
+            fun, Kolbe TV is the project for you!</p>
+            <h3>Leadership Positions</h3>
+            <p>• Leadership positions include: Executive Producer, Host, Senior Video
+              Editor and Graphic Designer. These roles are currently filled but will be
+              reassigned at the end of the year to rising seniors with a history of
+              dedication to the club.</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="chess-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://cdn.pixabay.com/photo/2020/08/25/11/10/chess-5516446_640.jpg" alt="Chess Club" class="img-bottom-left" />
+        <div class="club-info">
+          <h2>Interested in the Chess Club?</h2>
+          <p>Hear ye, hear ye! All Kolbe students are invited to join this
+            new club playing a classic game- chess.
+            • Students in the chess club will be paired with others to
+            compete at his or her own skill level.
+            • If you've never played before, that's ok too! We will pair you
+            with others to help you learn and go over some of the
+            basics as well.</p>
+          <h3>What We Do</h3>
+          <p>Monthly live meetings! This is a great way to meet other students and have fun
+            competing while growing your creativity, memory, and
+            logical thinking skills.</p>
+          <h3>Facilitator</h3>
+          <p>Mr. Castor: acastor@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>K-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="travelandculture-club" class="club-details layout-image-header" style="background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2024-11/241129-notre-dame-mb-1204-4d0d0b.jpg')">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the Travel and Culture Club?</h2>
+          <p>Student organized
+            • Monthly live meetings & discussion boards in Schoology.
+            • (You do not have to attend live meetings to participate.)
+            • You do not need to travel to join</p>
+          <h3>What We Do</h3>
+          <p>• This club is for any students interested in talking about
+            travel at home or abroad
+            • To share art and culture from different places
+            • Share places you have been or places you would like to
+            go.
+            • Share your great travel stories and plan Kolbe connects
+            • Learn Tips and tricks of travel, for example, Map reading
+            and planning</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Prudlo Email: tprudlo@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="kolbenewsshow-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://as2.ftcdn.net/v2/jpg/08/97/22/01/1000_F_897220101_yEDUOVatD4I1CKvQvawv5p4LElQ61U9P.jpg" alt="News Show Club" class="img-bottom-right" />
+        <div class="club-info">
+          <h2>Interested in the Kolbe News Show?</h2>
+          <p>Hello and Welcome to the Kolbe News Show! We meet about once a month.</p>
+          <h3>What We Do</h3>
+          <p>We are seeking Kolbe's most sparkling personalities to anchor the Kolbe News Show. Sibling teams are welcome! To audition for an on-air talent position, send a short video that is about three to five minutes of you or your team reading the Friday anouncements to newsshow@kolbe.org. </p>
+          <h3>Email</h3>
+          <p>Please email with any questions! newsshow@kolbe.org</p>
+          <h3>Leadership Poistions</h3>
+          <p>Currently offers one leadership position,
+            Executive Producer, which has been
+            filled.
+            • Other leadership positions may open.
+            ⚬ Positions available include anchor,
+            scriptwriter, script editor, manager,
+            graphical design, etc. More may be
+            available!</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="photography-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://media.istockphoto.com/id/610259354/photo/young-woman-using-dslr-camera.jpg?s=612x612&w=0&k=20&c=gjAR4JiqA8lkGQzssSrXxo3yl-cwr5j7Hy47cy-10c4=" alt="Photography Club" class="img-bottom-left" />
+        <div class="club-info">
+          <h2>Interested in the Photography Club?</h2>
+          <p>No previous experience necessary!
+            • Moderator led discussions in monthly live group
+            meetings</p>
+          <h3>What We Do</h3>
+          <p>Additional discussion forums for interacting.
+            • Activities: Monthly themed photo contests,
+            photography tips, equipment discussions, etc..
+            • Starts in mid September</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Michelle Jones. Email: mjones@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="coding-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://cdn.pixabay.com/animation/2023/01/26/04/01/04-01-09-576_512.gif" alt="Coding Club" class="img-bottom-right" />
+        <div class="club-info">
+          <h2>Interested in the Coding Club?</h2>
+          <p>Do you already have experience coding and want to
+            have a space to talk through your projects?
+            Join our club!
+            • Any experience level welcome</p>
+          <h3>What We Do</h3>
+          <p>Activities will include monthly coding challenges, "code together" tutorials, and opportunities to present personal coding projects! It is asychronous, so you code on your own time. The coding club is responsible for building this website for Kolbe! You learn a lot, and it's a lot of fun! Am I baised?... Maybe...</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Claxton Email: bclaxton@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="4handfarm-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://mymodernmet.com/wp/wp-content/uploads/2017/10/highland-cattle-calves-12.jpg" alt="4H and Farm Club" class="img-bottom-left" />
+        <div class="club-info">
+          <h2>Interested in the 4H and Farm Club?</h2>
+          <p>Are you interested in farming or already in 4H?
+            No need to have livestock or live on a homestead - if you're
+            interested in learning more about animals and/or
+            gardening, you'll have fun!</p>
+          <h3>What We Do</h3>
+          <p>Activities will include monthly asynchronous projects and
+            opportunities to share things you are working on with other
+            students.
+            • We will have a handful of optional live meetings throughout
+            the year to discuss topics</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Bradley Email: kbradley@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>3-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="kolbetalentshow-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://enduringword.com/wp-content/uploads/2016/05/spotlight.jpg" alt="Talent show" class="img-bottom-right"/>
+        <div class="club-info">
+          <h2>Interested in showcasing your talent at the Kolbe Talent Show?</h2>
+          <p>An opportunity for students to showcase their
+            God-given talents to our community.</p>
+          <h3>What We Do</h3>
+          <p>• Live performances of all varieties are included.
+            • Artwork and photography submissions are displayed throughout the show.
+            • Looking for students to assist with show production, as well!
+            • Show is open to all Kolbe students and faculty, but non-Kolbe students
+            cannot perform in the acts.
+
+            <h3>What about the Advent and Christmas Program?</h3>
+            <p>Advent & Christmas Program is December 19. (Open to Grades K-12)</p>
+
+            <h3>When is the Talent Show?</h3>
+            <p>• Talent Show is in May 15.</p>
+            <h3>Who can participate?</h3>
+            <p>Open to Grades 6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="yearbook-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://ca01001129.schoolwires.net//cms/lib/CA01001129/Centricity/Domain/656/class-of-2025-t-shirt-design-vector.jpg" alt="Yearbook Club" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the Yearbook Club?</h2>
+          <p>Together we will develop a goal and theme for our Kolbe yearbook.
+            We will build the book section by section.</p>
+          <h3>What We Do</h3>
+          <p>• We will be using an online Yearbook platform for all to see the
+            book as it develops. Student and parent volunteers will have
+            access to help edit pages.
+            We are looking for some committed and creative students to help.
+            Must work well with deadlines.
+            Must be able to commit to attending at least 1 meeting per month
+            (scheduled in advance)</p>
+          <h3>Facilitator</h3>
+          <p>Student led meetings and design. Email at yearbook@kolbe.org</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="NHS-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://core-docs.s3.amazonaws.com/otselic_valley_central_school_district_ar/article/image/large_19243b59-0fae-4e00-abf6-55a55d1df73e.png" alt="NHS" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the National Honors Society?</h2>
+          <p>The Kolbe Academy chapter of the National Honor Society is an organization for students
+            who demonstrate a commitment to excellence in academics and service.
+            Qualified students and parents are notified in August when applications for new
+            membership opens.</p>
+          <h3>What We Do</h3>
+          <p>Members Commitments:
+            • $20 NHS annual dues
+            • A minimum of 12 service points per semester.
+            • Qualifying hours can come from the following:
+            ⚬ Providing peer tutoring at Kolbe
+            ⚬ Leadership or service roles in a Kolbe club or group.
+            ⚬ Additional service opportunities provided directly by Kolbe’s Chapter of NHS and some outside service.
+            ⚬ Regular participation on NHS’s Schoology page.
+            ⚬ Mandatory monthly meetings. Days/times vary based on student schedules</p>
+          <h3>Facilitator</h3>
+          <p>Questions? Contact Mrs. Prudlo at tprudlo@kolbe.org or Mrs. Mammola at jmammola@kolbe.org for more information!</p>
+          <h3>Grades</h3>
+          <p>10-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="philosophy-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1200px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg" alt="Philosophy Club" class="img-bottom-right"/>
+        <div class="club-info">
+          <h2>Interested in the Philosophy, Theology, and Apologetics Club?</h2>
+          <p>Join the Best Club Kolbe Academy has to offer!!!! Learn how to Debate the ideas that really and truly matter to one’s soul!</p>
+          <h3>What We Do</h3>
+          <p>Meetings: The plan is to meet every 2 or 3 weeks, and have lively, thoughtful, truthful and inspiring
+            conversations on important matters in philosophy, theology, and apologetics – something desperately
+            needed today!
+            • Discussions All-Year: We will have an ongoing Discussion Board to carry on these important topics as
+            well. The topics of discussion ideally will be student driven – that is, I would like students to suggest
+            topics to discuss.
+            • Leadership Positions Available: If you like, we can even have a President and Vice President, too!
+            Please have your student email Dr. Hasler to let him know if he or she would like to run for one of these
+            positions. A short description of why the student would make a great President/Vice President and any
+            ideas for this club should be included by the student. We will be voting for officers at our first meeting.
+            Of course, this is not necessary either to have good discussions!!</p>
+          <h3>Facilitator</h3>
+          <p>Dr. Hasler Email: chasler@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>9-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="debate-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://images.fineartamerica.com/images-medium-large/the-philosophers-master-of-the-judgment-of-solomon.jpg" alt="Debate Club"  class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the Debate for Middle School Club?</h2>
+          <p>A fun way to develop skills in critical thinking
+            along with written and oral communication!</p>
+          <h3>What We Do</h3>
+          <p>Live meetings once or twice a month
+            • No previous experience needed
+            • Ongoing (moderated) discussion boards
+            • Fun topics, picked by students
+            • Civil discourse!</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Hernandez Email: nhernandez@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-8th</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="creativewritingmiddle-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://media.istockphoto.com/id/156288193/photo/young-male-student-thinking-at-his-desk-in-chinese-classroom.jpg?s=612x612&w=0&k=20&c=Jll5gH1gZ473-AnLnj4I_aZKkN0UnrRA3e0KR3mXdhY=" alt="Creative Writing Club" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the Creative Writing for Middle School Club?</h2>
+          <p>Building suspense in writing
+            Poetry month!
+            Learn to write advanced styles of poetry as well such as sonnets,
+            limericks, and narrative poetry</p>
+          <h3>What We Do</h3>
+          <p>Meets once per month
+            • Monthly writing themes
+            • Schoology group for continued discussion and peer input
+            • Focuses on expanding writing skills including complex
+            sentences, sensory words, descriptive language, and more</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Plesko Email: cplesko@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-8th</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="creativewriting-club" class="club-details layout-image-header" style="background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/words-background-old-texture_zyYT9dqu_SB_PM.jpg')" >
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the Creative Writing Club?</h2>
+          <h3>What We Do</h3>
+          <p>Meets once per month
+            • Schoology group for continued discussion
+            • Focusing on expanding writing skills
+            • Writing in complete sentences with more complexity
+            • Description/adjective use, sensory words
+            • Building suspense in writing
+            • Rhymes, meter, and syllable counting in lines
+            • Poetry reading and appreciation in class
+            • Collaborative story telling in class
+            • Writing more advanced forms of poems: sonnet, limerick, multi-stanza poetry.
+            • Imitation writing of famous short story authors
+            • Monthly prompts and opportunities to submit writing in contests</p>
+          <h3>Facilitator</h3>
+          <p>Dr. Stratman Email: gstratman@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>9-12th</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="kolbeforlife-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://www.ncronline.org/files/20200114T1129-0139-CNS-MARCH-LIFE-CHICAGO%20c.jpg" alt="Prolife Club" class="img-bottom-right" />
+        <div class="club-info">
+          <h2>Interested in the Kolbe Students for Life Club?</h2>
+          <h3>What We Do</h3>
+          <p>Whether you want to attend March for
+            Life with Kolbe or just be an advocate
+            for the unborn through our group, you
+            can sign up!</p>
+          <h3>Facilitator</h3>
+          <p>Mrs. Prudlo Email: tprudlo@kolbe.org</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="latin-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://cdn.mos.cms.futurecdn.net/wf5LtkE8f5TLtag5j7KNzE.jpg" alt="Latin Club" class="img-bottom-right"        />
+        <div class="club-info">
+          <h2>Interested in the Latin Club?</h2>
+          <h3>What We Do</h3>
+          <p>Student organized! For students interested in ancient Latin
+            and the world of Rome
+            • Monthly live meetings in AdobeConnect.
+            • Explore Roman philosophy, history,
+            mythology, etymology and more!</p>
+          <h3>Facilitator</h3>
+          <p>Dr. Matteoli Email: jmatteoli@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>3-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="spanish-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://espanolinthesouth.wordpress.com/wp-content/uploads/2013/07/18cc4-keepcalmposter.png" alt="Spanish Club"  class="img-bottom-right" />
+        <div class="club-info">
+          <h2>Interested in the Spanish Club?</h2>
+          <p>¡Hola, amigos!
+            Join el CLUB and explore all things related to español and the
+            cultures that speak this beautiful language! Membership is
+            open to any 6-12th grade student with an interest in
+            Spanish whether you are a current Spanish student or not!</p>
+          <h3>What We Do</h3>
+          <p>Presentations on country-specific history, culture the Church
+            and/or saints
+            • School-wide Rosary in Spanish on or around Dec. 12 to honor
+            Our Lady of Guadalupe
+            • End-of-school year fiesta featuring dishes from the Spanishspeaking world and a cooking contest
+            • Opportunities to chat en español
+            • Other ideas considered based on members' interests!
+            • Monthly live meetings</p>
+          <h3>Facilitator</h3>
+          <p>Senora Vachon Email: svachon@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="french-club" class="club-details layout-image-header" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPvQ_JCxtqAufAVlEJQ_9cxH3v65BCCQMLJA&s')"    >
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+          <h2>Interested in the French Club?</h2>
+          <p>Bonjour!
+            Are you curious about the French language and/or
+            French culture?
+            Bienvenue au Club Français! French Club is open
+            to any 6-12 student who is interested in learning
+            more about and celebrating all things French.</p>
+          <h3>What We Do</h3>
+          <p>Meeting times and dates will be
+            determined by the club.
+            • Activities: Discussions on French
+            culture, film, music and/or lit
+            reviews; French cuisine; The
+            Catholic Church in France;
+            French history</p>
+          <h3>Facilitator</h3>
+          <p>Madame Mammola Email: jmammola@kolbe.org</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="sciencefair-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/P_Science.png" alt="Science Fair Club" class="img-bottom-left"/>
+        <div class="club-info">
+          <h2>Interested in the Kolbe Academy Science Fair?</h2>
+          <p>An opportunity to dive into science and present your findings!</p>
+          <h3>What We Do</h3>
+          <p>Live presentations at the science fair in the 2nd semester
+            Join us if you are interested in participating, want more information or
+            are interestedinseeingthelivepresentations!
+            More details to follow</p>
+          <h3>Facilitator</h3>
+          <p>Teacher Mentors assigned and checkpoints given to participants</p>
+          <h3>Grades</h3>
+          <p>6-12</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  </main>
+
+  <footer>
+    &copy; 2025 The Kolbe Academy Club Hub. All rights reserved.
+  </footer>
+
+  <script>
+    function showDetails(id) {
+      closeDetails();
+      document.getElementById(id).style.display = 'block';
+    }
+
+    function closeDetails() {
+      document.querySelectorAll('.club-details').forEach(el => el.style.display = 'none');
+    }
+
+    function filterCategory(category) {
+      const all = document.querySelectorAll('.club-item');
+      if (category === 'all') {
+        all.forEach(el => el.style.display = 'block');
+      } else {
+        all.forEach(el => {
+          el.style.display = el.classList.contains(category) ? 'block' : 'none';
+        });
+      }
+    }
+  </script>
+</body>
+</html>
