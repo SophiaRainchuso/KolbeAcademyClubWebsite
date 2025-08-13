@@ -31,6 +31,7 @@
       <button onclick="filterCategory('middle')">Middle School Clubs</button>
       <button onclick="filterCategory('high')">High School Clubs</button>
       <button onclick="filterCategory('service')">Service Clubs</button>
+      <button onclick="filterCategory('performance')">Performance Opportunities</button>
       <button onclick="filterCategory('all')">Show All</button>
     </div>
 
@@ -52,7 +53,7 @@
       <div class="club-item middle high" onclick="showDetails('photography-club')">Photography Club</div>
       <div class="club-item middle high" onclick="showDetails('coding-club')">Coding Club</div>
       <div class="club-item elementary middle high" onclick="showDetails('4handfarm-club')">4H and Farm Club</div>
-      <div class="club-item elementary middle high" onclick="showDetails('kolbetalentshow-club')">Kolbe Talent Show</div>
+      <div class="club-item performance" onclick="showDetails('kolbetalentshow-club')">Kolbe Talent Show</div>
       <div class="club-item elementary middle high service" onclick="showDetails('yearbook-club')">Yearbook Club</div>
       <div class="club-item high service" onclick="showDetails('NHS-club')">National Honors Society</div>
       <div class="club-item high" onclick="showDetails('philosophy-club')">Philosophy, Theology, and Apologetics Club</div>
@@ -64,6 +65,12 @@
       <div class="club-item middle high" onclick="showDetails('spanish-club')">Spanish Club</div>
       <div class="club-item middle high" onclick="showDetails('french-club')">French Club</div>
       <div class="club-item middle high" onclick="showDetails('sciencefair-club')">Kolbe Academy Science Fair</div>
+      <div class="club-item performance" onclick="showDetails('christmas-concert')">Kolbe Academy Advent and Christmas Concert</div>
+      <div class="club-item elementary" onclick="showDetails('penpal-club')">Penpal Club</div>
+      <div class="club-item middle high" onclick="showDetails('meteorology-club')">Meteorology Club</div>
+      <div class="club-item high" onclick="showDetails('linguistics-club')">Linguistics Club</div>
+      <div class="club-item elementary middle high" onclick="showDetails('baseball-club')">Baseball Club</div>
+      <div class="club-item middle high" onclick="showDetails('scrabble-club')">Scrabble Club</div>
     </div>
 
     <div id="lego-club" class="club-details layout-blue-left-right">
@@ -656,6 +663,22 @@
       </div>
     </div>
 
+  <div id="christmas-concert" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://media.istockphoto.com/id/490107422/photo/kids-singing-carols-near-the-christmas-tree.jpg?s=612x612&w=0&k=20&c=4DotJsAUnYx1gawzqIq5rCzPS6ZKDa0WQx74yria6nc=" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in Performing in the Christmas Concert?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>Any grade can perform!</p>
+      </div>
+      </div>
+    </div>
+
     <div id="french-club" class="club-details layout-image-header" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPvQ_JCxtqAufAVlEJQ_9cxH3v65BCCQMLJA&s')"    >
       <span class="close-btn" onclick="closeDetails()">×</span>
       <div class="club-modal-layout">
@@ -701,6 +724,87 @@
         </div>
       </div>
     </div>
+
+    <div id="penpal-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://cdn.pixabay.com/photo/2023/06/09/19/37/letter-8052497_640.png" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in joining the PenPal club?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>K-3rd</p>
+      </div>
+      </div>
+    </div>
+
+  <div id="meteorology-club" class="club-details layout-image-header" style="background-image: url('https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/10124943/andras-kovacs-392569-unsplash.jpg')"    >
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <div class="club-modal-layout">
+        <div class="club-info">
+        <h2>Interested in joining the Meteorology club?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>6-12</p>
+      </div>
+      </div>
+    </div>
+
+    <div id="linguistics-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_HuMRuX8DOsIdy-5-_xDthQ21hjh5pgIVLA&s" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in joining the Linguistics club?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>9-12</p>
+      </div>
+      </div>
+    </div>
+
+    <div id="baseball-club" class="club-details layout-blue-left-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Marcus_Thames_Tigers_2007.jpg" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in joining the Baseball club?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>3rd-12th</p>
+      </div>
+      </div>
+    </div>
+
+    <div id="scrabble-club" class="club-details layout-maroon-right">
+      <span class="close-btn" onclick="closeDetails()">×</span>
+      <img src="https://e3.365dm.com/22/11/2048x1152/skynews-scrabble-boardgame_5968487.jpg" class="img-bottom-right" />
+      <div class="club-info">
+        <h2>Interested in joining the Scrabble club?</h2>
+        <p></p>
+        <h3>What We Do</h3>
+        <p></p>
+        <h3>Facilitator</h3>
+        <p><br>Email: </p>
+        <h3>Grades</h3>
+        <p>6th-12th</p>
+      </div>
+      </div>
+    </div>
+
   </main>
   </main>
 
